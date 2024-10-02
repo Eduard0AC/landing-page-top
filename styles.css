@@ -104,7 +104,26 @@ ul{
     color: #747474;
 }
 
+/*QUOTE*/
+.quote{
+    background-color: #e5e7eb;
+    padding: 120px 360px;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-autor{
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+}
 /* SHARED*/
 .top, .footer{
     background-color: #1f2937;
