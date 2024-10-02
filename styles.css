@@ -13,7 +13,7 @@ body{
 .top{
     display: flex;
     flex-direction: column;
-    padding: 16px 150px;
+    padding: 16px 200px;
 }
 
 /*HEADER*/
@@ -32,13 +32,15 @@ ul{
 /* HERO*/
 .hero{
     margin: 128px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .hero-text-button{
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    gap: 8px;
     max-width: 500px;
 }
 
@@ -50,6 +52,16 @@ ul{
 .hero-secondary-text, ul{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.img-placeholder{
+    background-color: #ffffffbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+    flex-shrink: 0;
 }
 
 /* SHARED*/
