@@ -39,8 +39,8 @@ ul{
 
 .hero-text-button{
     display: flex;
-    flex-shrink: 0;
     flex-direction: column;
+    gap: 8px;
     max-width: 500px;
 }
 
@@ -124,6 +124,38 @@ ul{
     color: #1f2937;
     align-self: flex-end;
 }
+
+/*CALL TO ACTION*/
+.call-to-action{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 128px 256px;
+    padding: 16px 100px;
+    box-sizing: border-box;
+    width: auto;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+.call-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.inverted-button{
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
 /* SHARED*/
 .top, .footer{
     background-color: #1f2937;
@@ -141,7 +173,11 @@ ul{
 }
 
 .button, .inverted-button{
-    max-width: 100px;
-    padding: 8px;
+    width: 120px;
+    padding: 8px 16px;
+    border-radius: 10px;
     color: #f9faf8;
+    font-weight: 900;
+    background-color: #3882f6;
+    font-size: 16px;
 }
