@@ -156,6 +156,14 @@ ul{
     border-style: solid;
 }
 
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
 /* SHARED*/
 .top, .footer{
     background-color: #1f2937;
