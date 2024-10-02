@@ -3,3 +3,18 @@
 *{
     font-family: roboto,sans-serif;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 256px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+}
+
+.header-logo{
+
+}
