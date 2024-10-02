@@ -9,18 +9,14 @@ body{
     height:100vh;
 }
 
-
+/*TOP*/
 .top{
     display: flex;
     flex-direction: column;
-    gap: 32px;
-}
-.header, .hero{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 200px;
+    padding: 16px 150px;
 }
 
+/*HEADER*/
 ul{
     display: flex;
     margin: 0;
@@ -33,6 +29,19 @@ ul{
     font-weight: 900;
 }
 
+/* HERO*/
+.hero{
+    margin: 128px 0px;
+}
+
+.hero-text-button{
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+}
+
 .hero-main-text{
     font-size: 48px;
     font-weight: 900;
@@ -43,7 +52,19 @@ ul{
     color: #e5e7eb;
 }
 
+/* SHARED*/
 .top, .footer{
     background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header, .hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button, .inverted-button{
+    max-width: 100px;
+    padding: 8px;
     color: #f9faf8;
 }
