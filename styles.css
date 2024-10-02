@@ -18,3 +18,7 @@ ul{
 .header-logo{
 
 }
+
+.header, .hero, .footer{
+    background-color: #1f2937;
+}
