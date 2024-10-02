@@ -13,7 +13,7 @@ body{
 .top{
     display: flex;
     flex-direction: column;
-    padding: 16px 200px;
+    padding: 16px 220px;
 }
 
 /*HEADER*/
@@ -49,11 +49,6 @@ ul{
     font-weight: 900;
 }
 
-.hero-secondary-text, ul{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 .img-placeholder{
     background-color: #ffffffbd;
     display: flex;
@@ -64,6 +59,52 @@ ul{
     flex-shrink: 0;
 }
 
+/*INFORMATION*/
+.information{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    margin: 42px;
+}
+
+.information-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.informations-container{
+    display: flex;
+    gap: 20px;
+}
+
+.information-unit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    gap: 8px;
+}
+
+.info-img{
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    border: 6px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.info-text{
+    font-size: 18px;
+    text-align: center;
+    color: #747474;
+}
+
+
 /* SHARED*/
 .top, .footer{
     background-color: #1f2937;
@@ -73,6 +114,11 @@ ul{
 .header, .hero{
     display: flex;
     justify-content: space-between;
+}
+
+.hero-secondary-text, ul{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .button, .inverted-button{
